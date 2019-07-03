@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Extent Report Suite" duration-ms="6402" started-at="2019-07-01T09:51:46Z" finished-at="2019-07-01T09:51:53Z">
+  <suite name="Extent Report Suite" duration-ms="15572" started-at="2019-07-03T12:19:52Z" finished-at="2019-07-03T12:20:07Z">
     <groups>
     </groups>
-    <test name="Extent Test" duration-ms="6402" started-at="2019-07-01T09:51:46Z" finished-at="2019-07-01T09:51:53Z">
+    <test name="Extent Test" duration-ms="15572" started-at="2019-07-03T12:19:52Z" finished-at="2019-07-03T12:20:07Z">
       <class name="com.extent.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@120d6fe6]" name="setup" is-config="true" duration-ms="5281" started-at="2019-07-01T09:51:46Z" finished-at="2019-07-01T09:51:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="setup" is-config="true" duration-ms="7414" started-at="2019-07-03T12:19:52Z" finished-at="2019-07-03T12:19:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="titleTest()[pri:0, instance:com.extent.testcases.LoginTest@120d6fe6]" name="titleTest" duration-ms="16" started-at="2019-07-01T09:51:52Z" finished-at="2019-07-01T09:51:52Z">
+        <test-method status="FAIL" signature="logotest()[pri:1, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="logotest" duration-ms="42" started-at="2019-07-03T12:19:59Z" finished-at="2019-07-03T12:19:59Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Google] but found [Google1]]]>
+              <![CDATA[expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Google] but found [Google1]
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.extent.testcases.LoginTest.titleTest(LoginTest.java:34)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.extent.testcases.LoginTest.logotest(LoginTest.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,8 +59,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- logotest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="teardown" is-config="true" duration-ms="617" started-at="2019-07-03T12:20:00Z" finished-at="2019-07-03T12:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="setup" is-config="true" duration-ms="6357" started-at="2019-07-03T12:20:00Z" finished-at="2019-07-03T12:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="titleTest" duration-ms="11" started-at="2019-07-03T12:20:07Z" finished-at="2019-07-03T12:20:07Z">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@120d6fe6]" name="teardown" is-config="true" duration-ms="607" started-at="2019-07-01T09:51:52Z" finished-at="2019-07-01T09:51:53Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="teardown" is-config="true" duration-ms="607" started-at="2019-07-03T12:20:07Z" finished-at="2019-07-03T12:20:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

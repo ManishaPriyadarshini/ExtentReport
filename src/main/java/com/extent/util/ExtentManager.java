@@ -17,7 +17,7 @@ public static ExtentReports extent;
 		if(extent==null){
 			
 			
-			extent = new ExtentReports(System.getProperty("user.dir")+"\\target\\reports\\extent reports\\extent.html",true,DisplayOrder.OLDEST_FIRST);
+			extent = new ExtentReports(System.getProperty("user.dir")+"\\target\\reports\\extent.html",true,DisplayOrder.OLDEST_FIRST);
 			extent.loadConfig(new File(System.getProperty("user.dir")+"\\src\\test\\resources\\ExtentConfig\\Extentcongig.xml"));
 			
 		}

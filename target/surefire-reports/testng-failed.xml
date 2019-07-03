@@ -8,8 +8,8 @@
     <classes>
       <class name="com.extent.testcases.LoginTest">
         <methods>
+          <include name="logotest"/>
           <include name="setup"/>
-          <include name="titleTest"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.extent.testcases.LoginTest -->

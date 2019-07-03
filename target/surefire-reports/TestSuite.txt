@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.92 s <<< FAILURE! - in TestSuite
-titleTest(com.extent.testcases.LoginTest)  Time elapsed: 0.023 s  <<< FAILURE!
-java.lang.AssertionError: expected [Google] but found [Google1]
-	at com.extent.testcases.LoginTest.titleTest(LoginTest.java:34)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.661 s <<< FAILURE! - in TestSuite
+logotest(com.extent.testcases.LoginTest)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.extent.testcases.LoginTest.logotest(LoginTest.java:33)
 

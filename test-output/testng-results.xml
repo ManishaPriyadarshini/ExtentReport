@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Extent Report Suite" duration-ms="15276" started-at="2019-07-01T11:07:17Z" finished-at="2019-07-01T11:07:33Z">
+  <suite name="Extent Report Suite" duration-ms="19487" started-at="2019-07-03T12:10:34Z" finished-at="2019-07-03T12:10:54Z">
     <groups>
     </groups>
-    <test name="Extent Test" duration-ms="15276" started-at="2019-07-01T11:07:17Z" finished-at="2019-07-01T11:07:33Z">
+    <test name="Extent Test" duration-ms="19487" started-at="2019-07-03T12:10:34Z" finished-at="2019-07-03T12:10:54Z">
       <class name="com.extent.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="setup" is-config="true" duration-ms="7150" started-at="2019-07-01T16:37:17Z" finished-at="2019-07-01T16:37:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="setup" is-config="true" duration-ms="10887" started-at="2019-07-03T17:40:34Z" finished-at="2019-07-03T17:40:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="logotest()[pri:1, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="logotest" duration-ms="55" started-at="2019-07-01T16:37:25Z" finished-at="2019-07-01T16:37:25Z">
+        <test-method status="FAIL" signature="logotest()[pri:1, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="logotest" duration-ms="49" started-at="2019-07-03T17:40:45Z" finished-at="2019-07-03T17:40:45Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -56,19 +56,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logotest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="teardown" is-config="true" duration-ms="615" started-at="2019-07-01T16:37:25Z" finished-at="2019-07-01T16:37:26Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="teardown" is-config="true" duration-ms="621" started-at="2019-07-03T17:40:46Z" finished-at="2019-07-03T17:40:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="setup" is-config="true" duration-ms="6243" started-at="2019-07-01T16:37:26Z" finished-at="2019-07-01T16:37:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="setup" is-config="true" duration-ms="6561" started-at="2019-07-03T17:40:46Z" finished-at="2019-07-03T17:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="titleTest" duration-ms="11" started-at="2019-07-01T16:37:32Z" finished-at="2019-07-01T16:37:32Z">
+        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="titleTest" duration-ms="12" started-at="2019-07-03T17:40:53Z" finished-at="2019-07-03T17:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="teardown" is-config="true" duration-ms="627" started-at="2019-07-01T16:37:32Z" finished-at="2019-07-01T16:37:33Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@2b4a2ec7]" name="teardown" is-config="true" duration-ms="664" started-at="2019-07-03T17:40:53Z" finished-at="2019-07-03T17:40:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
