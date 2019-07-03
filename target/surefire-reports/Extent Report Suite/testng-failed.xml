@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Extent Report Suite]">
+  <listeners>
+    <listener class-name="com.extent.listeners.CustomListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Extent Test(failed)">
+    <classes>
+      <class name="com.extent.testcases.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="titleTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.extent.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Extent Test(failed) -->
+</suite> <!-- Failed suite [Extent Report Suite] -->
