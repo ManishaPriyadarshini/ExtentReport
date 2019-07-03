@@ -9,8 +9,7 @@ import com.extent.base.BaseTest;
 import com.extent.page.LoginPage;
 
 
-
-
+//login test
 public class LoginTest extends BaseTest{
 	
 	LoginPage loginPage;
