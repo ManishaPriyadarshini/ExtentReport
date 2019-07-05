@@ -29,7 +29,7 @@ public class LoginTest extends BaseTest{
 	public void logotest()
 	{
 		boolean value = loginPage.logodisplay();
-		Assert.assertEquals(value, false);
+		Assert.assertEquals(value, true);
 	}
 	
 	@Test(priority=2)
