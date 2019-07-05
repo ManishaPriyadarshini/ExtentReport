@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Extent Report Suite" duration-ms="15572" started-at="2019-07-03T12:19:52Z" finished-at="2019-07-03T12:20:07Z">
+  <suite name="Extent Report Suite" duration-ms="23947" started-at="2019-07-03T12:35:16Z" finished-at="2019-07-03T12:35:40Z">
     <groups>
     </groups>
-    <test name="Extent Test" duration-ms="15572" started-at="2019-07-03T12:19:52Z" finished-at="2019-07-03T12:20:07Z">
+    <test name="Extent Test" duration-ms="23947" started-at="2019-07-03T12:35:16Z" finished-at="2019-07-03T12:35:40Z">
       <class name="com.extent.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="setup" is-config="true" duration-ms="7414" started-at="2019-07-03T12:19:52Z" finished-at="2019-07-03T12:19:59Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@120d6fe6]" name="setup" is-config="true" duration-ms="12115" started-at="2019-07-03T12:35:16Z" finished-at="2019-07-03T12:35:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="logotest()[pri:1, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="logotest" duration-ms="42" started-at="2019-07-03T12:19:59Z" finished-at="2019-07-03T12:19:59Z">
+        <test-method status="FAIL" signature="logotest()[pri:1, instance:com.extent.testcases.LoginTest@120d6fe6]" name="logotest" duration-ms="80" started-at="2019-07-03T12:35:28Z" finished-at="2019-07-03T12:35:28Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -60,19 +60,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logotest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="teardown" is-config="true" duration-ms="617" started-at="2019-07-03T12:20:00Z" finished-at="2019-07-03T12:20:00Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@120d6fe6]" name="teardown" is-config="true" duration-ms="774" started-at="2019-07-03T12:35:29Z" finished-at="2019-07-03T12:35:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="setup" is-config="true" duration-ms="6357" started-at="2019-07-03T12:20:00Z" finished-at="2019-07-03T12:20:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.extent.testcases.LoginTest@120d6fe6]" name="setup" is-config="true" duration-ms="8960" started-at="2019-07-03T12:35:30Z" finished-at="2019-07-03T12:35:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="titleTest" duration-ms="11" started-at="2019-07-03T12:20:07Z" finished-at="2019-07-03T12:20:07Z">
+        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.extent.testcases.LoginTest@120d6fe6]" name="titleTest" duration-ms="12" started-at="2019-07-03T12:35:39Z" finished-at="2019-07-03T12:35:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@4ba2ca36]" name="teardown" is-config="true" duration-ms="607" started-at="2019-07-03T12:20:07Z" finished-at="2019-07-03T12:20:07Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.extent.testcases.LoginTest@120d6fe6]" name="teardown" is-config="true" duration-ms="887" started-at="2019-07-03T12:35:39Z" finished-at="2019-07-03T12:35:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
