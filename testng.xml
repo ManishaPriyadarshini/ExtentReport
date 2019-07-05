@@ -10,6 +10,7 @@
 
 		<classes>
 			<class name="com.extent.testcases.LoginTest" />
+			<class name="com.extent.testcases.ProfilePageTest" />
 		</classes>
 	</test> <!-- Extent Test -->
 </suite> <!-- Extent Report Suite -->
